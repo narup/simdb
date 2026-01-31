@@ -18,7 +18,9 @@ Understanding embeddings is foundational to vector search.
 
 - **Pinecone Learning Center**
   - https://www.pinecone.io/learn/
+  - https://www.pinecone.io/learn/series/faiss/
   - Good conceptual explanations (ignore the product pitch)
+  - https://mccormickml.com/2017/10/13/product-quantizer-tutorial-part-1/
 
 ---
 
@@ -285,7 +287,11 @@ const results = index.search(query_vector, .{
 
 - arXiv has many recent papers on filtered ANN search (2024-2025)
 - Search: "filtered approximate nearest neighbor", "hybrid vector search"
-
+- AI foundations Suggested order:
+  * Essence of Linear Algebra (or skim if it's review)
+  * Neural Networks series
+  * Transformer/attention videos
+  * Then return to Nielsen's book if you want the details
 ---
 
 *Last updated: December 2025*
