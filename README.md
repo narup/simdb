@@ -17,9 +17,9 @@ An embedded vector search library in Zig. Like SQLite, but for vectors.
 **Milestone 1.1: Distance functions**
 - [x] Create `src/distance.zig`
 - [x] Implement `dotProduct(a: []const f32, b: []const f32) f32`
-- [ ] Implement `cosineSimilarity(a, b) f32`
-- [ ] Implement `euclideanDistance(a, b) f32`
-- [ ] Write tests with hand-calculated values
+- [x] Implement `cosineSimilarity(a, b) f32`
+- [x] Implement `euclideanDistance(a, b) f32`
+- [x] Write tests with hand-calculated values
 
 **Milestone 1.2: Vector store**
 - [ ] Create `src/index.zig`
